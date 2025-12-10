@@ -2,11 +2,13 @@ package org.openedx.foundation.presentation
 
 import androidx.compose.material.SnackbarDuration
 
-open class UIMessage {
+open class UIMessage(
+    open val message: String = ""
+) {
     class SnackBarMessage(
-        val message: String,
+        override val message: String,
         val duration: SnackbarDuration = SnackbarDuration.Long,
-    ) : UIMessage()
+    ) : UIMessage(message)
 
-    class ToastMessage(val message: String) : UIMessage()
+    class ToastMessage(override val message: String) : UIMessage(message)
 }
