@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foundation_error_no_connection">网络连接缓慢或无连接</string>
+    <string name="foundation_error_unknown_error">出错了</string>
+</resources>
