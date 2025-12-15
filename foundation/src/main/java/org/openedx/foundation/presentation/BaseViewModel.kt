@@ -55,6 +55,7 @@ open class BaseViewModel(
     }
 }
 
+@Suppress("MagicNumber")
 fun TestScope.captureUiMessage(viewModel: BaseViewModel) = async {
     withTimeoutOrNull(5_000) { viewModel.uiMessage.first() }
 }
