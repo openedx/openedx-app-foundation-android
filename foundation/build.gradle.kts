@@ -39,6 +39,9 @@ android {
     buildFeatures {
         buildConfig = true
     }
+    publishing {
+        singleVariant("release") {}
+    }
 }
 
 publishing {
@@ -46,7 +49,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.openedx"
             artifactId = "openedx-app-foundation-android"
-            version = "1.0.3"
+            version = "1.1.0"
 
             afterEvaluate {
                 from(components["release"])
