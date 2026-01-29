@@ -1,6 +1,6 @@
 package org.openedx.foundation.presentation
 
-import androidx.compose.material.SnackbarDuration
+import androidx.compose.material3.SnackbarDuration
 
 open class UIMessage(
     open val message: String = ""
