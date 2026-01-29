@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foundation_error_no_connection">Slow or no internet connection</string>
+    <string name="foundation_error_unknown_error">Something went wrong</string>
+</resources>

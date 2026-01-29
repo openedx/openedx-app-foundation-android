@@ -25,6 +25,7 @@ window = "1.4.0"
 workRuntimeKtx = "2.10.3"
 detekt = "1.23.8"
 material-icons-extended = "1.7.8"
+compose_material3 = "1.4.0"
 
 [libraries]
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
@@ -36,7 +37,7 @@ androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
 androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
-androidx-material = { module = "androidx.compose.material:material", version.ref = "compose" }
+androidx-material = { module = "androidx.compose.material3:material3", version.ref = "compose_material3" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "material-icons-extended" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
